@@ -1,0 +1,1 @@
+/home/eshaan/Desktop/AdventOfCode22/target/debug/aoc: /home/eshaan/Desktop/AdventOfCode22/src/day1.rs /home/eshaan/Desktop/AdventOfCode22/src/inputs/1.txt /home/eshaan/Desktop/AdventOfCode22/src/main.rs
