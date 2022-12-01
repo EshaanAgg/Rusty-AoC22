@@ -10,6 +10,12 @@ The `main` script of the module benchmarks and executes the imported functions.
 
 To view the same for any day, just import the module `day<number>` in `main.rs`, and then call the `bench` function on the `part1` or `part2` function of that module.
 
+Run the script by:
+
+```
+cargo build && cargo run
+```
+
 ## Benchmarks
 
 The execution times of all the scripts on my `Intel I7` machine are listed as follows:
