@@ -24,5 +24,7 @@ The execution times of all the scripts on my `Intel I7` machine are listed as fo
 | -------- | ----------- |
 | 1A       | `251.599us` |
 | 1B       | `286.452us` |
+| 2A       | `1.22323ms` |
+| 2B       | `1.01850ms` |
 
 ## Merry Hacking!!
