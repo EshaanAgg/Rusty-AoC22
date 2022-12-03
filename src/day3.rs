@@ -31,3 +31,25 @@ pub fn part1() {
 
     println!("{priority}");
 }
+
+pub fn part2() {
+    let priority: u32 = include_str!("inputs/3.txt")
+        .lines()
+        .collect::<Vec<_>>()
+        .chunks(3)
+        .map(|chunk| {
+            let first: HashSet<char> = HashSet::from_iter(chunk[0].chars());
+            let second: HashSet<char> = HashSet::from_iter(chunk[1].chars());
+            let third: HashSet<char> = HashSet::from_iter(chunk[2].chars());
+
+            let mut intersection = first;
+            intersection.retain(|c| second.contains(c));
+            intersection.retain(|c| third.contains(c));
+
+            let c = intersection.iter().next().unwrap();
+
+            get_score(*c)
+        })
+        .sum();
+    println!("{priority}");
+}

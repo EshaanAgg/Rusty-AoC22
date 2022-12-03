@@ -12,4 +12,5 @@ fn bench(f: fn()) {
 
 fn main() {
     bench(day3::part1);
+    bench(day3::part2);
 }
