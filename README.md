@@ -20,17 +20,13 @@ cargo build && cargo run
 
 The execution times of all the scripts on my `Intel I7` machine are listed as follows:
 
-| Question | Time        |
-| -------- | ----------- |
-| 1A       | `251.599us` |
-| 1B       | `286.452us` |
-| 2A       | `1.22323ms` |
-| 2B       | `1.01850ms` |
-| 3A       | `3.27246ms` |
-| 3B       | `3.93728ms` |
-| 4A       | `1.30294ms` |
-| 4B       | `1.24063ms` |
-| 5A       | `3.00914ms` |
-| 5B       | `3.14152ms` |
+| Day | Time Part A | Time Part B |
+| --- | ----------- | ----------- |
+| 1   | `251.599us` | `286.452us` |
+| 2   | `1.22323ms` | `1.01850ms` |
+| 3   | `3.27246ms` | `3.93728ms` |
+| 4   | `1.30294ms` | `1.24063ms` |
+| 5   | `3.00914ms` | `3.14152ms` |
+| 6   | `2.31388ms` | `8.76599ms` |
 
 ## Merry Hacking!!
