@@ -1,5 +1,5 @@
 use std::time;
-mod day5;
+mod day6;
 
 fn bench(f: fn()) {
     let t0 = time::Instant::now();
@@ -11,6 +11,6 @@ fn bench(f: fn()) {
 }
 
 fn main() {
-    bench(day5::part1);
-    bench(day5::part2);
+    bench(day6::part1);
+    // bench(day6::part2);
 }
