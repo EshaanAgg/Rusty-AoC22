@@ -30,7 +30,7 @@ cargo build && cargo run
 | 🟩 Day 9  |       [Rope Bridge](./src/day9.rs)        |    🌟    |    🌟    |
 | 🟩 Day 10 |    [Cathode-Ray Tube](./src/day10.rs)     |    🌟    |    🌟    |
 | 🟥 Day 11 |  [Monkey in the Middle](./src/day11.rs)   |          |          |
-| 🟥 Day 12 | [Hill Climbing Algorithm](./src/day12.rs) |          |          |
+| 🟩 Day 12 | [Hill Climbing Algorithm](./src/day12.rs) |    🌟    |    🌟    |
 | 🟥 Day 13 |     [Distress Signal](./src/day13.rs)     |          |          |
 | 🟥 Day 14 |   [Regolith Reservoir](./src/day14.rs)    |          |          |
 | 🟩 Day 15 |  [Beacon Exclusion Zone](./src/day15.rs)  |    🌟    |    🌟    |
