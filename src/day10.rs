@@ -65,16 +65,16 @@ fn solve2(inp: &str) -> String {
     let instructions = parse(inp);
     let mut screen = [' '; (COLS * ROWS) as usize];
 
-    let mut state = MachineState { cycle: 0, x: 1 };
+    let mut state = MachineState { cycle: 1, x: 1 };
 
     instructions.into_iter().for_each(|instruction| {
-        screen[state.cycle as usize] = get_pixel(&state);
+        screen[(state.cycle - 1) as usize] = get_pixel(&state);
         state.cycle += 1;
 
         match instruction {
             Instruction::Noop => {}
             Instruction::Addx(x) => {
-                screen[state.cycle as usize] = get_pixel(&state);
+                screen[(state.cycle - 1) as usize] = get_pixel(&state);
                 state.cycle += 1;
                 state.x += x;
             }
