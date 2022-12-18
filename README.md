@@ -16,17 +16,29 @@ Run the script by:
 cargo build && cargo run
 ```
 
-## Benchmarks
+## Progress
 
-The execution times of all the scripts on my `Intel I7` machine are listed as follows:
+| Day       |                 Challenge                 | Part One | Part Two |
+| --------- | :---------------------------------------: | :------: | -------- |
+| 🟩 Day 1  |     [Calorie Counting](./src/day1.rs)     |    🌟    | 🌟       |
+| 🟩 Day 2  |   [Rock Paper Scissors](./src/day2.rs)    |    🌟    | 🌟       |
+| 🟩 Day 3  | [Rucksack Reorganization](./src/day3.rs)  |    🌟    | 🌟       |
+| 🟩 Day 4  |       [Camp Cleanup](./src/day4.rs)       |    🌟    | 🌟       |
+| 🟩 Day 5  |      [Supply Stacks](./src/day5.rs)       |    🌟    | 🌟       |
+| 🟩 Day 6  |      [Tuning Trouble](./src/day6.rs)      |    🌟    | 🌟       |
+| 🟥 Day 7  | [No Space Left On Device](./src/day7.rs)  |          |          |
+| 🟩 Day 8  |    [Treetop Tree House](./src/day8.rs)    |    🌟    | 🌟       |
+| 🟩 Day 9  |       [Rope Bridge](./src/day9.rs)        |    🌟    | 🌟       |
+| 🟥 Day 10 |    [Cathode-Ray Tube](./src/day10.rs)     |          |          |
+| 🟥 Day 11 |  [Monkey in the Middle](./src/day11.rs)   |          |          |
+| 🟥 Day 12 | [Hill Climbing Algorithm](./src/day12.rs) |          |          |
+| 🟥 Day 13 |     [Distress Signal](./src/day13.rs)     |          |          |
+| 🟥 Day 14 |   [Regolith Reservoir](./src/day14.rs)    |          |          |
+| 🟩 Day 15 |  [Beacon Exclusion Zone](./src/day15.rs)  |    🌟    | 🌟       |
+| 🟥 Day 16 |  [Proboscidea Volcanium](./src/day16.rs)  |          |          |
+| 🟥 Day 17 |    [Pyroclastic Flow](./src/day17.rs)     |          |          |
+| 🟥 Day 18 |    [Boiling Boulders](./src/day18.rs)     |          |          |
 
-| Day | Time Part A | Time Part B |
-| --- | ----------- | ----------- |
-| 1   | `251.599us` | `286.452us` |
-| 2   | `1.22323ms` | `1.01850ms` |
-| 3   | `3.27246ms` | `3.93728ms` |
-| 4   | `1.30294ms` | `1.24063ms` |
-| 5   | `3.00914ms` | `3.14152ms` |
-| 6   | `2.31388ms` | `8.76599ms` |
+The execution times of all the scripts can be found be importing the module in `main.rs`!
 
 ## Merry Hacking!!
