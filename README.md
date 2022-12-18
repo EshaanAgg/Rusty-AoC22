@@ -20,6 +20,7 @@ cargo build && cargo run
 
 | Day       |                 Challenge                 | Part One | Part Two |
 | --------- | :---------------------------------------: | :------: | :------: |
+| 🟩 Day 1  |     [Calorie Counting](./src/day1.rs)     |    🌟    |    🌟    |
 | 🟩 Day 2  |   [Rock Paper Scissors](./src/day2.rs)    |    🌟    |    🌟    |
 | 🟩 Day 3  | [Rucksack Reorganization](./src/day3.rs)  |    🌟    |    🌟    |
 | 🟩 Day 4  |       [Camp Cleanup](./src/day4.rs)       |    🌟    |    🌟    |
